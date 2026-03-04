@@ -1,4 +1,10 @@
-FASTQ = "data/VREC1013.fastq.gz"
+configfile: "config/config.yaml"
+
+FASTQ = config["fastq"]
+RESULTS = config["results_dir"]
+
+
+FASTQ = "{FASTQ}"
 
 
 rule all:

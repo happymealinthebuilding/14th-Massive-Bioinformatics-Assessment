@@ -1,0 +1,2 @@
+fastq: "data/VREC1013.fastq.gz"
+results_dir: "results"
